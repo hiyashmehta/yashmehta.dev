@@ -172,3 +172,4 @@ const projectImages = [
 		],
 	},
 ];
+export default projectImages;

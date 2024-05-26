@@ -14,7 +14,7 @@ export const Article = ({ project }: { project: any }) => {
 					height={400}
 					className="rounded-md"
 				/>
-				<div className="absolute top-0 left-0 w-full h-full opacity-0 group-hover:opacity-100 grid place-items-center group-hover:bg-black/30 ">
+				<div className="absolute top-0 left-0 hidden w-full h-full opacity-0 group-hover:opacity-100 xl:grid place-items-center group-hover:bg-black/30 ">
 					<ViewImagesDialog
 						projectName={project.title}
 						images={project.images}

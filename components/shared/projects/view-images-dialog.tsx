@@ -23,18 +23,18 @@ export default function ViewImagesDialog({
 			<DialogTrigger asChild>
 				<Button variant={"secondary"}>View images</Button>
 			</DialogTrigger>
-			<DialogContent className="w-[800px]">
-				<h1>{projectName}</h1>
-				<Carousel className="w-full max-w-xs h-full mx-auto">
+			<DialogContent className="w-11/12 min-w-max p-16">
+				<h1 className="text-2xl font-semibold">{projectName} Images</h1>
+				<Carousel className="w-max max-w-4xl h-full mx-auto">
 					<CarouselContent>
 						{images.map((item, index) => (
-							<CarouselItem key={index} className="h-full">
+							<CarouselItem key={index}>
 								<Image
 									src={item}
 									alt="image"
-									width={800}
-									height={640}
-									className="rounded-md h-full w-full"
+									width={4800}
+									height={4000}
+									className="rounded-3xl h-max w-min object-cover"
 								/>
 							</CarouselItem>
 						))}

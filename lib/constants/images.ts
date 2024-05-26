@@ -119,7 +119,7 @@ const projectImages = [
 			},
 			{
 				id: 5,
-				src: "server-view.png",
+				src: "server_view.png",
 			},
 			{
 				id: 6,

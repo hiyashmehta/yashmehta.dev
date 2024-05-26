@@ -19,7 +19,6 @@ const getAllImages = (key: string) => {
 	}
 	return [];
 };
-console.log({ imagesForSavimo: getAllImages("savimo") });
 
 const allProjects = [
 	{

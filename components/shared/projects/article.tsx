@@ -1,11 +1,12 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import ViewImagesDialog from "./view-images-dialog";
 
 export const Article = ({ project }: { project: any }) => {
 	return (
 		// <Link href={`/projects/${project?.slug}`}>
 		<article className="p-4 md:p-8">
-			<div className="py-4">
+			<div className="py-4 relative">
 				<Image
 					src={project.previewImage}
 					alt="preview image"
@@ -13,6 +14,12 @@ export const Article = ({ project }: { project: any }) => {
 					height={400}
 					className="rounded-md"
 				/>
+				<div className="absolute top-0 left-0 w-full h-full opacity-0 group-hover:opacity-100 grid place-items-center group-hover:bg-black/30 ">
+					<ViewImagesDialog
+						projectName={project.title}
+						images={project.images}
+					/>
+				</div>
 			</div>
 			<div className="flex items-center justify-between">
 				{" "}

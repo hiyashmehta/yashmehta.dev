@@ -38,17 +38,18 @@ const Hero = ({}) => {
 				data-testid="hero-text"
 				className="mt-5 font-display dark:text-white/80 text-3xl font-bold leading-[1.15] text-black sm:text-6xl sm:leading-[1.15]"
 			>
-				a freelance web developer</motion.h1>
+				a Software developer
+			</motion.h1>
 			<motion.h2
 				variants={containerItem}
-				className="mt-5 dark:text-gray-400 text-gray-600 sm:text-xl"
+				className="mt-5 text-gray-600 dark:text-gray-400 sm:text-xl"
 			>
-				Building web applications with React, Next.JS, Material UI,
-				Tailwind CSS, Redux, Vercel, and MySQL. I&apos;m building
+				Building web applications with React, Next.JS, Tailwind CSS,
+				Redux, Vercel, React Query, tRPC, and MySQL. I&apos;m building
 				{/* Building web applications with React, Next.JS, Material UI,
 				Tailwind CSS, Redux, Vercel, and PlanetScale. I&apos;m building{" "} */}
 				<a
-					className="text-blue-700 font-semibold hover:underline underline-offset-2 bg-gradient-to-r from-blue-400 via-blue-500 to-violet-800 bg-clip-text text-transparent"
+					className="font-semibold text-transparent text-blue-700 hover:underline underline-offset-2 bg-gradient-to-r from-blue-400 via-blue-500 to-violet-800 bg-clip-text"
 					href="https://opppen.space"
 					target="_blank"
 					rel="noreferrer"
@@ -58,19 +59,19 @@ const Hero = ({}) => {
 				</a>{" "}
 				and{" "}
 				<a
-					className="text-blue-700 font-semibold hover:underline underline-offset-2 bg-gradient-to-r from-blue-400 via-blue-500 to-violet-800 bg-clip-text text-transparent"
-					href="https://savimo.app"
+					className="font-semibold text-transparent text-blue-700 hover:underline underline-offset-2 bg-gradient-to-r from-blue-400 via-blue-500 to-violet-800 bg-clip-text"
+					href="https://mishtus.com"
 					target="_blank"
 					rel="noreferrer"
 				>
 					{" "}
-					savimo.app
+					msihtus.com
 				</a>{" "}
 			</motion.h2>
 
 			<motion.div
 				variants={containerItem}
-				className="mx-auto mt-10 flex max-w-fit space-x-4"
+				className="flex mx-auto mt-10 space-x-4 max-w-fit"
 			>
 				<a
 					href={`https://www.linkedin.com/in/hiyash`}
@@ -79,7 +80,7 @@ const Hero = ({}) => {
 					className="relative inline-flex h-12 overflow-hidden rounded-md p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
 				>
 					<span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-					<span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-md bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+					<span className="inline-flex items-center justify-center w-full h-full px-3 py-1 text-sm font-medium text-white rounded-md cursor-pointer bg-slate-950 backdrop-blur-3xl">
 						Linkedin
 					</span>
 				</a>

@@ -57,17 +57,7 @@ const Hero = ({}) => {
 					{" "}
 					opppen.space
 				</a>{" "}
-				and{" "}
-				<a
-					className="font-semibold text-transparent text-blue-700 hover:underline underline-offset-2 bg-gradient-to-r from-blue-400 via-blue-500 to-violet-800 bg-clip-text"
-					href="https://mishtus.com"
-					target="_blank"
-					rel="noreferrer"
-				>
-					{" "}
-					msihtus.com
-				</a>{" "}
-			</motion.h2>
+				</motion.h2>
 
 			<motion.div
 				variants={containerItem}
